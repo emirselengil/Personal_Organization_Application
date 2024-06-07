@@ -234,8 +234,8 @@ namespace Hub
                             string to = txtEmail.Text;                            
                             string subject2 = "Your Verify Code!";  
                             string body2 = "Verify Code: " + VerificationCode;
-                            string Email = "AkarE1521@outlook.com";
-                            string Password = "AkarE2021";
+                            string Email = "MailAdresiniz";
+                            string Password = "Şifreniz";
                             string Host = "smtp.office365.com";
                             int Port = 587;
 
@@ -329,8 +329,8 @@ namespace Hub
             string to = txtEmail.Text;
             string subject = "Welcome!";
             string body = "This email confirms that your registration has been successfully completed!";
-            string Email = "AkarE1521@outlook.com";
-            string Password = "AkarE2021";
+            string Email = "MailAdresiniz";
+            string Password = "Şifreniz";
             string Host = "smtp.office365.com";
             int Port = 587;
             if (txtVerify.Text == VerificationCode)
