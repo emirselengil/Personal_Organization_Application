@@ -123,8 +123,8 @@ namespace Hub
                 DateTime now = DateTime.Now;
 
                 string body = "There was an unauthorized login attempt to your account on " + now + " !";
-                string Email = "AkarE1521@outlook.com";
-                string Password = "AkarE2021";
+                string Email = "MailAdresiniz";
+                string Password = "Şifreniz";
                 string Host = "smtp.office365.com";
                 int Port = 587;
 
