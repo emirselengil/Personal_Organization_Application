@@ -34,8 +34,4 @@ Personal_Organization_Application/
    ```
 2. Projeyi Visual Studio'da açın.
 3. Derleyip çalıştırın.
-
-## 📜 Lisans
-Bu proje açık kaynak olup MIT Lisansı altında sunulmaktadır.
-
 ---
