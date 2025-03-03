@@ -1,37 +1,34 @@
-# Kişisel Organizasyon Uygulaması
+## 📌 Overview
+The **Personal Organization Application** is a comprehensive tool designed to help users efficiently manage their daily tasks, reminders, contact list, and notes. With a user-friendly interface, it allows users to track important events, store personal contacts, and organize notes systematically.
 
-## 📌 Genel Bakış
-Kişisel Organizasyon Uygulaması, kullanıcıların günlük görevlerini, hatırlatıcılarını, kişiler listesini ve notlarını verimli bir şekilde yönetmelerine yardımcı olan kapsamlı bir araçtır. Kullanıcı dostu arayüzü sayesinde önemli etkinlikleri takip etme, kişisel kişiler listesini saklama ve notları düzenli bir şekilde organize etme imkanı sunar.
+## 🚀 Features
+- **Reminder Management**: Add, view, and receive notifications for important reminders.
+- **Note Management**: Create, edit, and view personal notes.
+- **Contact Management**: Store and manage personal and professional contacts.
+- **User Authentication**: Secure login and registration system.
+- **Salary Calculator**: A simple salary calculation tool.
 
-## 🚀 Özellikler
-- **Hatırlatıcı Yönetimi**: Önemli hatırlatıcıları ekleme, görüntüleme ve bildirim alma.
-- **Not Yönetimi**: Kişisel notlar oluşturma, düzenleme ve görüntüleme.
-- **Rehber Yönetimi**: Kişisel ve profesyonel kişileri saklama ve yönetme.
-- **Kullanıcı Kimlik Doğrulama**: Güvenli giriş ve kayıt sistemi.
-- **Maaş Hesaplama**: Basit maaş hesaplama aracı.
-
-## 🛠️ Kullanılan Teknolojiler
+## 🛠️ Technologies Used
 - **C# (.NET Framework)**
-- **Windows Forms (WinForms) Kullanıcı Arayüzü**
-- **CSV Dosya Kullanımı Veri Depolama İçin**
+- **Windows Forms (WinForms) UI**
+- **CSV File Usage for Data Storage**
 
-## 📂 Proje Yapısı
+## 📂 Project Structure
 ```
 Personal_Organization_Application/
-│── ReminderMain.cs          # Hatırlatıcı yönetim sistemi
-│── ViewRemindersForm.cs     # Kullanıcıya hatırlatıcıları gösterme
-│── createNoteControl.cs     # Not oluşturma ve düzenleme fonksiyonları
-│── phonebook form.cs        # Rehber yönetim sistemi
-│── User.cs                  # Kullanıcı kimlik doğrulama ve profil yönetimi
-│── salarycalculaterform.cs  # Maaş hesaplama aracı
-│── Program.cs               # Uygulamanın ana giriş noktası
+│── ReminderMain.cs          # Reminder management system
+│── ViewRemindersForm.cs     # Displays reminders to the user
+│── createNoteControl.cs     # Functions for creating and editing notes
+│── phonebook form.cs        # Contact management system
+│── User.cs                  # User authentication and profile management
+│── salarycalculaterform.cs  # Salary calculation tool
+│── Program.cs               # Main entry point of the application
 ```
 
-## 🔧 Kurulum
-1. Depoyu klonlayın:
+## 🔧 Installation
+1. Clone the repository:
    ```sh
    git clone https://github.com/emirselengil/Personal_Organization_Application.git
    ```
-2. Projeyi Visual Studio'da açın.
-3. Derleyip çalıştırın.
----
+2. Open the project in **Visual Studio**.
+3. Build and run the application.
